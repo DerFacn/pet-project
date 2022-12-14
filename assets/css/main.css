@@ -1,4 +1,6 @@
 * { box-sizing: border-box; }
+a { text-decoration: none; }
+ul { margin: 0; }
 
 hr { 
     background-color: whitesmoke; 
