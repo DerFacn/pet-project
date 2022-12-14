@@ -7,3 +7,7 @@ $(document).ready(
         next_element.css('margin-top', header_height + 80 + 'px')
     
     })
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}

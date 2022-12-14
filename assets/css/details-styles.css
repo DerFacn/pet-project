@@ -1,34 +1,36 @@
 details{
-    display:block;
-    background: #fff;
-    width:400px;
-    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    border-radius: 8px;
-    overflow:hidden;
-    margin-bottom: 1.5rem;
+  display:block;
+  background: #fff;
+  width:400px;
+  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  overflow:hidden;
+  margin-bottom: 1.5rem;
 }
-summary::-webkit-details-marker{display:none;}
-summary::-moz-list-bullet{list-style-type:none;}
-summary::marker{display:none;} 
-summary {
-    display:block;
-    padding: .3em 1em .3em .9em;
 
-    font-size:1.4em;
-    cursor: pointer;
-    position: relative;
+summary::-webkit-details-marker{ display:none; }
+summary::-moz-list-bullet{ list-style-type:none; }
+summary::marker{ display:none; } 
+
+summary {
+  display:block;
+  padding: .3em 1em .3em .9em;
+
+  font-size:1.4em;
+  cursor: pointer;
+  position: relative;
 }
 summary:before {  
-    top: .4em;
-    right: .3em;
-    color: transparent;
-    background: url("../../assets/images/radio-icon.svg") no-repeat;
-    background-size: 1.1em;
-    width: 1em;
-    height: 1em;  
-    content: "";
-    position: absolute;
-    transition: transform .5s;
+  top: .4em;
+  right: .3em;
+  color: transparent;
+  background: url("../../assets/images/radio-icon.svg") no-repeat;
+  background-size: 1.1em;
+  width: 1em;
+  height: 1em;  
+  content: "";
+  position: absolute;
+  transition: transform .5s;
 }
 
 details[open] > summary:before {
@@ -36,39 +38,39 @@ details[open] > summary:before {
 }
 
 details { 
-    width: 560px;
+  width: 560px;
 
-    background-color: #0f0f0f;
+  background-color: #0f0f0f;
 }
 
 summary ~ * {
-    padding: 0 1em 10px 1.4em;
-}
-details[open] summary ~ *{ 
-    animation-fill-mode: forwards;
-    animation: sweep .5s ease-in-out;
-    
-}
-@keyframes sweep {
-    0%    {opacity: 0;}
-    100%  {opacity: 1;}
-}
-summary:focus {
-    outline: 0;
+  padding: 0 1em 10px 1.4em;
 }
 
-.white-svg {
-    fill: white;
-}/*
+details[open] summary ~ *{ 
+  animation-fill-mode: forwards;
+  animation: sweep .5s ease-in-out; 
+}
+
+@keyframes sweep {
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+summary:focus {
+  outline: 0;
+}
+
+/*
 summary::-webkit-details-marker{display:none;}
 summary::-moz-list-bullet{list-style-type:none;}
 summary::marker{display:none;} 
 summary {
-   padding: .3em 1.5em .3em .6em;
-   display:inline-block;
-   font-size:1.4em;
-   cursor: pointer;
-   position: relative;
+  padding: .3em 1.5em .3em .6em;
+  display:inline-block;
+  font-size:1.4em;
+  cursor: pointer;
+  position: relative;
 }
 summary:before {
   right: .3em;
