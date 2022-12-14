@@ -6,7 +6,6 @@
 # Тут пишет [DerFacn](https://github.com/DerFacn/ "Дерфакн аче)")
 
 When create a Django project:
-* curl -o homework.html https://pornhub.com/gayporn
 * python -m venv venv
 * venv\Scripts\activate.ps1
 * pip install django
