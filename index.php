@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css?v=<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css?v=<?php echo rand(); ?>">
-	<link rel="stylesheet" type="text/css" href="./assets/css/details-styles.css?php echo rand(); ?>">
-	<script type="application/javascript" src="./assets/js/jq.js"></script>
-	<script src="./assets/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/details-styles.css?v=<?php echo rand(); ?>">
+	<script type="application/javascript" src="./assets/js/jq.js?v=<?php echo rand(); ?>"></script>
+	<script src="./assets/js/main.js?v=<?php echo rand(); ?>"></script>
 	<title>Portfolio</title>
 </head>
 <body>
@@ -51,16 +51,16 @@
 </div>
 
 <div class="flex-center">
-		<details>
-			<summary>
+		<details class="skill-details">
+			<summary class="skill-summary">
 				skill 1 
 			</summary>
-
-			<p> some text</p>
+			<div class="skill-content">
+				content
+			</div>
 		</details>
 
 	</div>
 </div>
-
 </body>
 </html>

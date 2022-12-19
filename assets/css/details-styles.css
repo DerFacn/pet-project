@@ -34,7 +34,7 @@ summary:before {
 }
 
 details[open] > summary:before {
-    transform: rotateX(180deg);
+    transform: rotateZ(180deg);
 }
 
 details { 
@@ -47,9 +47,9 @@ summary ~ * {
   padding: 0 1em 10px 1.4em;
 }
 
-details[open] summary ~ *{ 
+.skill-fill-animation { 
   animation-fill-mode: forwards;
-  animation: sweep .5s ease-in-out; 
+  animation: sweep 5s ease-in-out; 
 }
 
 @keyframes sweep {
