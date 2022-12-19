@@ -1,22 +1,20 @@
 $(document).ready(
     function() { 
-        setInterval(set_header_margin(margin_px = 80), 1000)
-        // // почему-то не работает как надо (строка выше)
-        // setInterval(function() {
-        //     $('header').css('padding', '+=20px')
-        //     //$('header').animate({'padding': '+=10px' }, '1000', 'linear')
-        // }, 2000 )
-        set_header_margin(margin_px = 800)
+        set_header_margin(margin_px = 80)
+        setInterval(set_header_margin(margin_px = 80), 1000) 
+        // это надо переписать на медиа-запросах (две строки сверху)
         set_details_animations()
         close_opened_details()
     })
 
-function set_header_margin(margin_px){
-    let header = $('header')
-    let next_element = header.next()
-    header_height = header.outerHeight()
+function set_header_margin(margin_px) {
+    return function() {
+        let header = $('header')
+        let next_element = header.next()
+        header_height = header.outerHeight()
 
-    next_element.css('margin-top', header_height + margin_px + 'px')
+        next_element.css('margin-top', header_height + margin_px + 'px')
+    }
 }
 
 function set_details_animations() {
