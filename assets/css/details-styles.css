@@ -47,10 +47,20 @@ summary ~ * {
   padding: 0 1em 10px 1.4em;
 }
 
-.skill-fill-animation { 
+/* .skill-fill-animation { 
   animation-fill-mode: forwards;
-  animation: sweep 5s ease-in-out; 
+  animation: sweep 0.5s ease-in-out; 
+} */
+
+/* .details-open-animation {
+  animation: vertical-unwrap 2s ease-in;
+  overflow: hidden;
 }
+
+@keyframes vertical-unwrap {
+  0% { max-height: 90px; }
+  100% { max-height: 100%; }
+} */
 
 @keyframes sweep {
   0%    { opacity: 0; }

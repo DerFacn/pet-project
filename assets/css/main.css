@@ -1,33 +1,3 @@
-hr { 
-    background-color: whitesmoke; 
-    height: 1px; 
-    border: 0; 
-}
-
-header { 
-    position: fixed;
-    top: 0;
-
-    background-color: #21252f;
-    width: 100%;
-    padding: 20px 40px;
-    border-bottom: 2px solid black;
-}
-
-li { display: inline-block; }
-
-.container {
-    margin: 0 auto;
-    max-width: 1024px;
-    padding: 0 40px;
-}
-
-body {
-    font-family: Arial, Helvetika, sans-serif;
-    color: white;
-    background-color: #141414;
-}
-
 .flex-space-between {
     display: flex;
     justify-content: space-between;
@@ -38,15 +8,6 @@ body {
     column-gap: 40px;
 }
 
-.header-link {
-    color: white;
-}
-
-.active-page-text {
-    font-size: 1.5em;
-    color: rgb(23, 197, 145);
-}
-
 .about-me {
     padding: 20px 0;
 
@@ -55,12 +16,7 @@ body {
     justify-content: space-between;
 }
 
-.light-green-bg {
-    width: 100%;
-    background-color: rgb(88, 197, 155);;
-}
-
-#my-image {
+.picture-of-me {
     height: 512px;
     width: 512px;
 }
@@ -127,10 +83,10 @@ body {
     background-color: #1a1a1a;
 }
 
-.radio-icon {
+/* .radio-icon {
     height: 40px;
     width: 40px;
-}
+} */
 
 .flex-center { 
     margin-top: 80px;
