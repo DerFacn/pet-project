@@ -1,3 +1,4 @@
 # Ignore venv
 **venv/
 **.idea/
+**.pyc
