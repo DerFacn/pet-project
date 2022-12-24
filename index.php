@@ -22,14 +22,14 @@
 	<nav>
 		<div class="flex-space-between">
 			<ul class="flex-space-between col-gap40px"> <!-- блок выровненный слева -->
-				<li><a class="header-link active-page-text" href="#">Портфолио</a></li>
-				<li><a class="header-link" href="#">Проекты</a></li>
-				<li><a class="header-link" href="./contacts.php">Контакты</a></li>
+				<li><a class="active-page-text" href="#">Портфолио</a></li>
+				<li><a href="#">Проекты</a></li>
+				<li><a href="./contacts.php">Контакты</a></li>
 			</ul>
 
 			<ul class="flex-space-between col-gap40px">
-				<li><a class="header-link" href="./login.php">Вход</a></li>
-				<li><a class="header-link" href="#">Регистрация</a></li>
+				<li><a href="./login.php">Вход</a></li>
+				<li><a href="#">Регистрация</a></li>
 			</ul>
 		</div>
 	</nav>
