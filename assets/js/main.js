@@ -1,6 +1,6 @@
 $(document).ready(
     function() { 
-        set_header_margin(margin_px = 80)
+        set_header_margin(margin_px = 120)
         // это надо переписать на медиа-запросах (строка сверху)
         //set_details_animations()
         close_opened_details()

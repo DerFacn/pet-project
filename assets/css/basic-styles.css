@@ -5,16 +5,20 @@ header {
     background-color: #21252f;
     width: 100%;
     padding: 20px 40px;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 
 body {
-    font-family: Arial, Helvetika, sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: white;
     background-color: #141414;
 }
 
 li { display: inline-block; }
+
+a {
+    color: white;
+}
 
 hr { 
     background-color: whitesmoke; 
@@ -40,4 +44,14 @@ hr {
 .light-green-bg {
     width: 100%;
     background-color: rgb(88, 197, 155);
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.col-gap40px {
+    column-gap: 40px;
 }

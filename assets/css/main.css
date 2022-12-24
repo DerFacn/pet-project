@@ -1,13 +1,3 @@
-.flex-space-between {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.col-gap40px {
-    column-gap: 40px;
-}
-
 .about-me {
     padding: 20px 0;
 
