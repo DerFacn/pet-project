@@ -1,4 +1,8 @@
 # Ignore venv
 **venv/
 **.idea/
+<<<<<<< HEAD
+**__pycache__/
+=======
 **.pyc
+>>>>>>> 49f02d4eef13f0b42fcc4c37683c132435f30358
