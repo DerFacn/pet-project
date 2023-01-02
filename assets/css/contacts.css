@@ -1,52 +1,50 @@
-.contacts-flex {
+.center-column {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: center;
-    
-    row-gap: 50px;
-    /* column-gap: 77px; */
-
-    /* column-gap: 50px;
-    row-gap: 60px; */
-
-    padding: 0 50px;
+    align-items: center;
+    row-gap: 20px;
 }
 
-a.contact {
+
+.contact {
+    /* при добавлении border не ломать высоту и ширину */
+
+    position: relative;
+    max-width: 80%;
     padding: 20px 30px;
 
-    /* display: flex;
-    flex-flow: row nowrap; */
-    display: grid;
-    grid-template-areas: "logo text"; 
+    display: flex;
+    flex-flow: row nowrap;
     align-items: center;
-    
-    column-gap: 1em;
+    justify-content: space-between;
+    /* width: 100%; */
 
     background-color:  #2b2b2b;
+    border: 1px solid transparent;
 
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
 .contact:hover, .contact:focus {
-    transition: color 0.25s linear;
+    border: 1px solid aquamarine;
+    transition: border 0.15s linear;
+    /* transition: color 0.1s linear; */
     color: aquamarine;
 }
 
-.social-logo {
-    grid-area: logo;
+.social {
+    margin-right: 4em;
 }
 
 .logo-pic {
+    white-space: nowrap;
     width: 1.5em;
     height: 1.5em;
 }
 
 .social-text {
-    grid-area: text;
-    margin-left: auto;
-    vertical-align: middle;
-    text-align: center;
-
+    /* vertical-align: middle;
+    text-align: center; */
     display: inline-block;
 }

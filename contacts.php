@@ -36,44 +36,26 @@
 </header>
 <!-- КУСОК СВЕРХУ ДОЛЖЕН БЫТЬ ТЕМПЛЕЙТОМ HEADER-А -->
 
-<div class="contacts-flex">
-<a target="_blank" class="contact" href="google.com">
-        <div class="social-logo">
-            <img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
-        </div>
-        <span class="social-text"> vk.com/derfacn </span>
-    </a>
-    <a target="_blank" class="contact" href="#">
-        <div class="social-logo">
-            <img class="logo-pic" src="https://www.instagram.com/favicon.ico" alt="INST icon">
-        </div>
-        <span class="social-text"> instagram.com/derfacn </span>
-    </a>
-    <a target="_blank" class="contact" href="#">
-        <div class="social-logo">
-            <img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
-        </div>
-        <span class="social-text"> hello </span>
-    </a>
-    <a target="_blank" class="contact" href="#">
-        <div class="social-logo">
-            <img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
-        </div>
-        <span class="social-text"> hello </span>
-    </a>
-    <a target="_blank" class="contact" href="#">
-        <div class="social-logo">
-            <img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
-        </div>
-        <span class="social-text"> hello </span>
-    </a>
-    <a target="_blank" class="contact" href="#">
-        <div class="social-logo">
-            <img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
-        </div>
-        <span class="social-text"> hello </span>
-    </a>
-</div>
+<div class="center-column">
+	<a target="_blank" class="contact" href="vk.com/derfacn">
+			<div class="social">
+				<img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
+			</div>
+			<span class="social-text"> vk.com/derfacn </span>
+	</a>
+	<a target="_blank" class="contact" href="vk.com">
+			<div class="social">
+				<img class="logo-pic" src="https://instagram.com/favicon.ico" alt="INST icon">
+			</div>
+			<span class="social-text">  instagram.com/derfacn </span>
+	</a>
+	<a target="_blank" class="contact" href="vk.com">
+			<div class="social">
+				<img class="logo-pic" src="https://a.com/favicon.ico" alt="пример нерабочей иконки">
+			</div>
+			<span class="social-text">  pornhub.com/channel/derfacn </span>
+	</a>
+</div> 
 
 </body>
 </html>
