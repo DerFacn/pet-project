@@ -8,10 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
+	<link rel="stylesheet" type="text/css" href="./assets/css/contacts.css?v=<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css?v=<?php echo rand(); ?>">
     <link rel="stylesheet" type="text/css" href="./assets/css/basic-styles.css?v=<?php echo rand(); ?>">
-	<link rel="stylesheet" type="text/css" href="./assets/css/contacts.css?v=<?php echo rand(); ?>">
-	<link rel="stylesheet" type="text/css" href="./assets/css/details-styles.css?v=<?php echo rand(); ?>">
 	<script type="application/javascript" src="./assets/js/jq.js?v=<?php echo rand(); ?>"></script>
 	<script src="./assets/js/contacts.js?v=<?php echo rand(); ?>"></script>
 	<title>Portfolio</title>
@@ -23,8 +22,8 @@
 		<div class="flex-space-between">
 			<ul class="flex-space-between col-gap40px"> <!-- блок выровненный слева -->
 				<li><a href="./index.php">Портфолио</a></li>
-				<li><a href="#">Проекты</a></li>
-				<li><a target="_blank" class="active-page-text" href="#">Контакты</a></li>
+				<li><a href="./projects.php">Проекты</a></li>
+				<li><a class="active-page-text" href="#">Контакты</a></li>
 			</ul>
 
 			<ul class="flex-space-between col-gap40px">

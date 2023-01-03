@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css?v=<?php echo rand(); ?>">
-	<link rel="stylesheet" type="text/css" href="./assets/css/basic-styles.css?v=<?php echo rand(); ?>">
-	<link rel="stylesheet" type="text/css" href="./assets/css/index.css?v=<?php echo rand(); ?>">
+    <link rel="stylesheet" type="text/css" href="./assets/css/basic-styles.css?v=<?php echo rand(); ?>">
+	<link rel="stylesheet" type="text/css" href="./assets/css/projects.css?v=<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="./assets/css/details-styles.css?v=<?php echo rand(); ?>">
 	<script type="application/javascript" src="./assets/js/jq.js?v=<?php echo rand(); ?>"></script>
-	<script src="./assets/js/index.js?v=<?php echo rand(); ?>"></script>
+	<script src="./assets/js/projects.js?v=<?php echo rand(); ?>"></script>
 	<title>Portfolio</title>
 </head>
 <body>
@@ -22,8 +22,8 @@
 	<nav>
 		<div class="flex-space-between">
 			<ul class="flex-space-between col-gap40px"> <!-- блок выровненный слева -->
-				<li><a class="active-page-text" href="#">Портфолио</a></li>
-				<li><a href="./projects.php">Проекты</a></li>
+				<li><a href="./index.php">Портфолио</a></li>
+				<li><a class="active-page-text" href="#">Проекты</a></li>
 				<li><a href="./contacts.php">Контакты</a></li>
 			</ul>
 
@@ -34,40 +34,20 @@
 		</div>
 	</nav>
 </header>
-<!-- КУСОК СВЕРХУ ДОЛЖЕН БЫТЬ ТЕМПЛЕЙТОМ HEADER-А -->
 
-<div class="light-green-bg">
-	<div class="container">
-		<div class="about-me">
-			<img class="picture-of-me" src="./assets/images/me.png"  alt="my photo">
-
-			<div class="about-me-text">
-				<p>Алекс Алексеев</p>
-				<p>Мне Х лет</p>
-			</div>
-		</div>
-	</div>
+<div class="wrapped-row">
+    <div>hello1</div>
+    <div>hello2</div>
+    <div>hello2</div>    
+    <div>hello2</div>    
+    <div>hello2</div>    
+    <div>hello2</div>
+    <div>hello2</div>
+    <div>hello2</div>    
+    <div>hello2</div>    
+    <div>hello2</div>    
+    <div>hello2</div>
 </div>
 
-<div class="container">
-	<div class="whatican-text">
-		<!--Что я умею?-->
-		whatican
-	</div>
-	<hr>
-</div>
-
-<div class="flex-center">
-		<details class="skill-details">
-			<summary class="skill-summary">
-				skill 1 
-			</summary>
-			<div class="skill-content">
-				content
-			</div>
-		</details>
-
-	</div>
-</div>
 </body>
 </html>

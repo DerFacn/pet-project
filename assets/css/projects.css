@@ -1,0 +1,16 @@
+.wrapped-row {
+    width: 100%;
+    padding: 0 50px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 20px;
+}
+
+.wrapped-row > * {
+    width: 30%;
+    background-color: darkslategrey;
+}
