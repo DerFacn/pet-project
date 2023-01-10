@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css?v=<?php echo rand(); ?>">
     <link rel="stylesheet" type="text/css" href="./assets/css/basic-styles.css?v=<?php echo rand(); ?>">
 	<script type="application/javascript" src="./assets/js/jq.js?v=<?php echo rand(); ?>"></script>
+	<script src="./assets/js/importer.js?v=<?php echo rand(); ?>"></script>
 	<script src="./assets/js/contacts.js?v=<?php echo rand(); ?>"></script>
 	<title>Portfolio</title>
 </head>
@@ -35,25 +36,27 @@
 </header>
 <!-- КУСОК СВЕРХУ ДОЛЖЕН БЫТЬ ТЕМПЛЕЙТОМ HEADER-А -->
 
-<div class="center-column">
-	<a target="_blank" class="contact" href="vk.com/derfacn">
-			<div class="social">
-				<img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
-			</div>
-			<span class="social-text"> vk.com/derfacn </span>
-	</a>
-	<a target="_blank" class="contact" href="vk.com">
-			<div class="social">
-				<img class="logo-pic" src="https://instagram.com/favicon.ico" alt="INST icon">
-			</div>
-			<span class="social-text">  instagram.com/derfacn </span>
-	</a>
-	<a target="_blank" class="contact" href="vk.com">
-			<div class="social">
-				<img class="logo-pic" src="https://a.com/favicon.ico" alt="пример нерабочей иконки">
-			</div>
-			<span class="social-text">  pornhub.com/channel/derfacn </span>
-	</a>
+<div class="contacts-grid">
+	<div class="contacts-column">
+		<a target="_blank" class="contact" href="vk.com/derfacn">
+				<div class="social">
+					<img class="logo-pic" src="https://vk.com/favicon.ico" alt="VK icon">
+				</div>
+				<span class="social-text"> vk.com/derfacn </span>
+		</a>
+		<a target="_blank" class="contact" href="vk.com">
+				<div class="social">
+					<img class="logo-pic" src="https://instagram.com/favicon.ico" alt="INST icon">
+				</div>
+				<span class="social-text">  instagram.com/derfacn </span>
+		</a>
+		<a target="_blank" class="contact" href="vk.com">
+				<div class="social">
+					<img class="logo-pic" src="https://a.com/favicon.ico" alt="пример нерабочей иконки">
+				</div>
+				<span class="social-text">  pornhub.com/channel/derfacn </span>
+		</a>
+	</div>
 </div> 
 
 </body>

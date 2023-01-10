@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/projects.css?v=<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="./assets/css/details-styles.css?v=<?php echo rand(); ?>">
 	<script type="application/javascript" src="./assets/js/jq.js?v=<?php echo rand(); ?>"></script>
-	<script src="./assets/js/projects.js?v=<?php echo rand(); ?>"></script>
+	<script type="application/javascript" src="./assets/js/projects.js?v=<?php echo rand(); ?>"></script>
 	<title>Portfolio</title>
 </head>
 <body>
@@ -36,17 +36,10 @@
 </header>
 
 <div class="wrapped-row">
-    <div>hello1</div>
-    <div>hello2</div>
-    <div>hello2</div>    
-    <div>hello2</div>    
-    <div>hello2</div>    
-    <div>hello2</div>
-    <div>hello2</div>
-    <div>hello2</div>    
-    <div>hello2</div>    
-    <div>hello2</div>    
-    <div>hello2</div>
+    <div class="project">
+		<img class="project-img" src="./assets/images/nig.jpg">
+	</div>
+
 </div>
 
 </body>
