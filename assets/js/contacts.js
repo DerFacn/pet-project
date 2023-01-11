@@ -16,5 +16,3 @@ function set_header_margin(margin_px) {
 window.onbeforeunload = function () { // скролл страницы вверх при перезагрузке
     window.scrollTo(0, 0)
 }
-
-console.log(constants.assets_path)
