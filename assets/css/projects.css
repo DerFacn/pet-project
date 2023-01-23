@@ -10,7 +10,18 @@
     gap: 20px;
 }
 
-.wrapped-row > * {
+.project {
     width: 30%;
-    background-color: darkslategrey;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    gap: 20px;
+
+    background-color: dimgrey;
+}
+
+.project-img {
+    width: 100%;
+    
 }
