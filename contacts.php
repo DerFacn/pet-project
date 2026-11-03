@@ -1,16 +1,16 @@
-<?php require_once('./derfacn/assets/templates/html_head-basic.php') ?>
+<?php require_once(__DIR__ . '/assets/templates/html_head-start.php') ?>
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/contacts.css?v=<?php echo rand(); ?>">
 	<script src="./assets/js/contacts.js?v=<?php echo rand(); ?>"></script>
 
 	<title>Portfolio</title>
 
-<?php require_once('./derfacn/assets/templates/head-end.php') ?>
+<?php require_once(__DIR__ . '/assets/templates/head-end.php') ?>
 
 
 
 <body>
-<?php require_once('./derfacn/assets/templates/header.php') ?>
+<?php require_once(__DIR__ . '/assets/templates/header.php') ?>
 
 <div class="contacts-grid">
 	<div class="contacts-column">
